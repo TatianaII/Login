@@ -3,10 +3,11 @@
   
   }
   :root {
-    --input-padding-x: 1.5rem;
-    --input-padding-y: .75rem;
+    --input-padding-x: 1rem;
+    --input-padding-y: .70rem;
   
   }
+
   
   body {
     background-image: url('https://i.pinimg.com/originals/52/b6/e2/52b6e237bf1155a8109ead35b2b808d5.jpg');
@@ -16,9 +17,13 @@
     border: 0;
     border-radius: 2rem;
     box-shadow: 0 1rem 2rem 0 rgba(1, 1, 1, 1);
-    margin: 0 auto !important;
   }
   
+  #sponsors{
+    margin:0 auto !important;
+    width:1000px;
+    }
+
   .card-signin .card-title {
     margin-bottom: 2rem;
     font-weight: 500;
@@ -135,7 +140,14 @@
   .mb-2, .my-2 {
     margin-bottom: 2rem !important;
   }
+  .mb-1, .my-1 {
+    margin-bottom: 1rem !important;
+  }
   img {
     vertical-align: middle;
     border-style: none;
+  }
+
+  .spc-1{
+    margin-top: 10px;
   }
