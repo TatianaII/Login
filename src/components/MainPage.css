@@ -1,5 +1,5 @@
 .masthead-1 {
-    height: 100vh;
+    height: auto;
     min-height: 500px;
     background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080');
     background-size: cover;
@@ -8,13 +8,7 @@
   }
 
 
-  body {
-    background: url('https://source.unsplash.com/twukN12EN7c/1920x1080') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-  }
+
 
   .mb-3, .my-3 {
     margin-bottom: 3rem !important;

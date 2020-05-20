@@ -12,23 +12,21 @@ const Editar = () =>{
     return (
 
         <header className="masthead-1">
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-        <Navbar.Brand>Prueba navbar</Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav classNameName="mr-auto"></Nav>
-            <Nav>
-            <NavDropdown title="Configuración" id="collasible-nav-dropdown">
-                <NavDropdown.Item href="./Navegation">Inicio</NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="/">LogOut</NavDropdown.Item>
-            </NavDropdown>
-            </Nav>
-        </Navbar.Collapse>
-        </Navbar>
+            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+            <Navbar.Brand>Prueba navbar</Navbar.Brand>
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            <Navbar.Collapse id="responsive-navbar-nav">
+                <Nav classNameName="mr-auto"></Nav>
+                <Nav>
+                <NavDropdown title="Configuración" id="collasible-nav-dropdown">
+                    <NavDropdown.Item href="./Navegation">Inicio</NavDropdown.Item>
+                    <NavDropdown.Divider />
+                    <NavDropdown.Item href="/">LogOut</NavDropdown.Item>
+                </NavDropdown>
+                </Nav>
+            </Navbar.Collapse>
+            </Navbar>
 
-            
-            <div className="container" >
                 <div className="row align-items-center">
                 <div className="col-12 text-center"></div>
                 <div className="container">
@@ -85,7 +83,6 @@ const Editar = () =>{
                 </div>
                 </div>
                 </div>
-            </div>
         </header>
 
     );

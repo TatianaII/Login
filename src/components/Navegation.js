@@ -27,11 +27,9 @@ const Navegation = () =>{
                 <div className="row align-items-center">
                     <div className="abs-center col-12 text-center">
                         <h1 className="font-weight-light">Pagina Principal</h1>
-                        <p class="lead">Subtítulo</p>
                     </div>
                 </div>
             </div>
-
         </header>
 
     );

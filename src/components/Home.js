@@ -7,7 +7,7 @@ import {Link} from 'react-router-dom';
 const Home = () => {
 
     return (
-     <header className="masthead">
+    
       <div className="center">
          <div className="container">
           <div className="row">
@@ -30,7 +30,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-      </header>
     );
 
   }

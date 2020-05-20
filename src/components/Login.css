@@ -10,9 +10,9 @@
   }
 
   .masthead{
-    height: 100vh;
+    height: auto;
     min-height: 500px;
-    background-image: url('https://blackrockdigital.github.io/startbootstrap-creative/') no-repeat center center fixed;
+    background-image: url('https://blackrockdigital.github.io/startbootstrap-creative/');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
