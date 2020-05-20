@@ -1,16 +1,14 @@
 import React from 'react';
 import './Login.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navigation from './Navigation';
 import {Link} from 'react-router-dom';
 
 
 const Home = () => {
 
     return (
-    
+     <header className="masthead">
       <div className="center">
-          <h1>Hola Tiagoo</h1>
          <div className="container">
           <div className="row">
             <div className="col-sm-9 col-md-7 col-lg-5 mx-auto">
@@ -19,11 +17,11 @@ const Home = () => {
                   <h5 className="card-title text-center">Bienvenido</h5>
                   <form className="form-signin">
                   <div>
-                    <button className="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Ingresar</button>
+                    <button className="btn btn-lg btn-primary btn-block text-uppercase" type="submit" ><Link to = {"/Login"} > Ingresar</Link></button>
                     </div>
                         <hr className="my-2"></hr>
                     <div>
-                    <button className="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Registrarse</button>
+                    <button className="btn btn-lg btn-primary btn-block text-uppercase" type="submit" ><Link to = {"/Registro"} > Registrarse</Link></button>
                     </div>
                     </form>
                 </div>
@@ -31,15 +29,8 @@ const Home = () => {
             </div>
           </div>
         </div>
-
-            <Link to = {"/Login"} > Ir </Link>
-
-
-
       </div>
-
-
-
+      </header>
     );
 
   }

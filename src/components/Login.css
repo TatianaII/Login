@@ -2,15 +2,20 @@
     text-align: center;
   
   }
+
   :root {
     --input-padding-x: 1rem;
     --input-padding-y: .70rem;
   
   }
 
-  
-  body {
-    background-image: url('https://i.pinimg.com/originals/52/b6/e2/52b6e237bf1155a8109ead35b2b808d5.jpg');
+  .masthead{
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('https://blackrockdigital.github.io/startbootstrap-creative/') no-repeat center center fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
   
   .card-signin {
@@ -148,6 +153,14 @@
     border-style: none;
   }
 
-  .spc-1{
+  .spc-20{
+    margin-top:20px;
+  }
+
+  .spc-10{
     margin-top: 10px;
+  }
+
+  .spc-1{
+    margin-top: 1px;
   }

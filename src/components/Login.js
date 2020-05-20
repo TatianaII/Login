@@ -4,8 +4,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {Link} from 'react-router-dom';
 
 
+
 const Login = () => {
   return (
+    <header className="masthead">
+    <div className = "backLogin">
     <div className="center">
        <div className="container">
         <div className="row">
@@ -13,7 +16,7 @@ const Login = () => {
             <div className="card card-signin my-5">
               <div className="card-body">
                 <h5 className="card-title text-center">Sign In</h5>
-                <hr class="my-2"></hr>
+                <hr class="my-3"></hr>
                 <form className="form-signin">
                   <div className="form-label-group">
                     <input type="text" id="inputUser" className="form-control" placeholder="Nombre Usuario" required autofocus/>
@@ -30,8 +33,9 @@ const Login = () => {
                   <div>
                   <button className="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Ingresar</button>
                   </div>
-                  <div className="text-center spc-1">
+                  <div className="text-center spc-10">
                   <Link to = {"/Registro"} >¿No tenés un usurario? ¡Registrate! </Link></div>
+                  <Link to = {"/Navegation"} >Pagina Principal </Link>
                   </form>
               </div>
             </div>
@@ -39,6 +43,8 @@ const Login = () => {
         </div>
       </div>
     </div>
+    </div>
+    </header>
   );
 }
 
