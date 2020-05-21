@@ -17,18 +17,20 @@ const Home = () => {
                   <h5 className="card-title text-center">Bienvenido</h5>
                   <form className="form-signin">
                   <div>
-                    <button className="btn btn-lg btn-primary btn-block text-uppercase" type="submit" ><Link to = {"/Login"} > Ingresar</Link></button>
+                  <button className="btn btn-lg btn-primary btn-block text-uppercase" type="submit" href="./Login" >Login</button>
                     </div>
                         <hr className="my-2"></hr>
                     <div>
-                    <button className="btn btn-lg btn-primary btn-block text-uppercase" type="submit" ><Link to = {"/Registro"} > Registrarse</Link></button>
+                    <button className="btn btn-lg btn-primary btn-block text-uppercase" type="submit" href="./Registro" >Registro</button>
                     </div>
                     </form>
+
                 </div>
               </div>
             </div>
           </div>
         </div>
+        <Link to = {"/Navegation"} >The easy way (MainPage)</Link>
       </div>
     );
 

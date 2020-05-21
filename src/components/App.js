@@ -7,6 +7,7 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Navegation from './Navegation';
 import Editar from './Editar';
 
+
 const App = () => (
    <Router>
      <React.Fragment>
@@ -16,6 +17,7 @@ const App = () => (
          <Route exact path="/" component ={Home}/>
          <Route exact path="/Navegation" component = {Navegation}/>
          <Route exact path="/Editar" component = {Editar}/>
+
          </Switch>
      </React.Fragment>
    </Router>

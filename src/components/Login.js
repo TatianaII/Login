@@ -35,7 +35,7 @@ const Login = () => {
                     </div>
                     <div className="text-center spc-10">
                     <Link to = {"/Registro"} >¿No tenés un usurario? ¡Registrate! </Link></div>
-                    <Link to = {"/Navegation"} >Pagina Principal </Link>
+
                     </form>
                 </div>
               </div>
