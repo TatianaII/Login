@@ -30,7 +30,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <Link to = {"/Navegation"} >The easy way (MainPage)</Link>
+        <Link to = {"/Navegation"} >(MainPage)</Link>
       </div>
     );
 

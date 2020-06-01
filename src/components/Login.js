@@ -8,7 +8,6 @@ import {Link} from 'react-router-dom';
 const Login = () => {
   return (
     <header className="masthead">
-      <div className = "backLogin">
       <div className="center">
         <div className="container">
           <div className="row">
@@ -35,14 +34,12 @@ const Login = () => {
                     </div>
                     <div className="text-center spc-10">
                     <Link to = {"/Registro"} >¿No tenés un usurario? ¡Registrate! </Link></div>
-
                     </form>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
       </div>
     </header>
   );
